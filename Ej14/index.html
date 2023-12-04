@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/ce7b6e9b40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="containerCalculadora">
+        <div id="containerInputs">
+            <input id="inputCalculadora" type="text"> </input>
+            <input id="resultadoApartado" type="text">
+        </div>
+        <div id="containerBotones" class="gridContainer">
+            <button class="col-3 signo">%</button>
+            <button class="col-3" onclick="eraseAll()">CE</button>
+            <button class="col-3" onclick="eraseAll()">C</button>
+            <button class="col-3" onclick="eraseOneDigit()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="col-3 num">7</button>
+            <button class="col-3 num">8</button>
+            <button class="col-3 num">9</button>
+            <button class="col-3 signo">x</button>
+            <button class="col-3 num">4</button>
+            <button class="col-3 num">5</button>
+            <button class="col-3 num">6</button>
+            <button class="col-3 signo">-</button>
+            <button class="col-3 num">1</button>
+            <button class="col-3 num">2</button>
+            <button class="col-3 num">3</button>
+            <button class="col-3 signo">+</button>
+            <button class="col-3" onclick="cambiarSigno()">+/-</button>
+            <button class="col-3 num">0</button>
+            <button class="col-3 num">,</button>
+            <button id="equalButton" class="col-3">=</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

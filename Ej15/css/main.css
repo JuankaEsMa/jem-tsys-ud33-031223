@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(104, 104, 104) !important;
+    color: white !important;
+    margin: 20px !important;
+}
+.row{
+    margin-bottom: 20px;
+}
+img{
+    margin-bottom: 20px;
+}
+#imgGrande{
+    margin: auto auto;
+    min-width: 400px;
+    max-width: 900px;
+}
+.containerImagenesPequeñas{
+    display: flex;
+    justify-content: center;
+}
+.containerImagenesPequeñas>img{
+    width: 150px;
+}
+#altImgGrande{
+    text-align: center;
+    font-size: 40px;
+}
